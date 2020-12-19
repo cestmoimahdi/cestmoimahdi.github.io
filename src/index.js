@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
 
-const element = React.createElement('div', { id: 'test' }, 'Mahdi Asemani')
-
-ReactDOM.render(element, document.querySelector('#root'))
+ReactDOM.render(<App />, document.querySelector('#root'))
