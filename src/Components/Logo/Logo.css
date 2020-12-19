@@ -1,0 +1,29 @@
+.logo h2 {
+    color: azure;
+    display: block;
+    padding: 10px 25px;
+    border: 2px solid #ffffff;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.logo h3 {
+    color: azure;
+    position: relative;
+    display: block;
+    padding: 10px 25px;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.logo h3::after {
+    background-color: #efefef;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 100px;
+}
