@@ -5,6 +5,7 @@ import Main from './Container/Main/Main'
 const App = ()=>{
     return(
         <div>
+        <Header />
         <main>
             <div className='side'>
                 <Side />
@@ -13,11 +14,7 @@ const App = ()=>{
                 <Main />
             </div>
         </main>
-        <footer>
-            <div className="footer">
-            Designed by Mahdi Asemani
-            </div>
-        </footer>
+        <Footer />
         </div>
     )
 }
