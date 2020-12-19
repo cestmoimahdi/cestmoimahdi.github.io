@@ -3,8 +3,8 @@
     display: block;
     padding: 10px 25px;
     border: 2px solid #ffffff;
-    font-family: Roboto;
-    font-weight: normal;
+    font-family: Montserrat-med;
+    letter-spacing: 0.2em;
 }
 
 .logo h3 {
@@ -12,8 +12,9 @@
     position: relative;
     display: block;
     padding: 10px 25px;
-    font-family: Roboto;
+    font-family: inherit;
     font-weight: normal;
+    letter-spacing: 0.15em;
 }
 
 .logo h3::after {
@@ -25,5 +26,5 @@
     left: 50%;
     position: absolute;
     transform: translate(-50%, 0);
-    width: 100px;
+    width: 150px;
 }
