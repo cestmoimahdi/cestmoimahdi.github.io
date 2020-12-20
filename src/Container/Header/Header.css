@@ -1,11 +1,7 @@
 .header {
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
     background: url('../../images/Background_Image.jpg') top/cover no-repeat;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }

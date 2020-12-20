@@ -1,18 +1,16 @@
 .footer {
-    margin: 0;
-    bottom: 0;
     width: 100%;
     background-color: #2f383a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 7vh;
 }
 
 .designer {
     color: azure;
-    text-align: center;
-    padding: 20px 0;
     font-family: inherit;
     font-weight: normal;
-    margin: auto 0;
     font-size: 13px;
 }
 

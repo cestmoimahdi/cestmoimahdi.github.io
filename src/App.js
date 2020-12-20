@@ -7,8 +7,10 @@ import './App.css'
 
 const App = ()=>{
     return(
-        <div>
-        <Header />
+        <div className="wrapper">
+        <header>
+            <Header />
+        </header>
         <main>
             <div className='side'>
                 <Side />
@@ -17,7 +19,9 @@ const App = ()=>{
                 <Main />
             </div>
         </main>
-        <Footer />
+        <footer>
+            <Footer />
+        </footer>
         </div>
     )
 }

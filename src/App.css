@@ -1,7 +1,28 @@
-main {
+.wrapper {
     display: grid;
-    grid-template-columns: 20% 80%;
-    height: 93vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh auto auto;
 }
 
-.side {}
+main {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+@media (min-width:560px) {
+    .wrapper {
+        grid-template-rows: 100vh 93vh 7vh;
+    }
+    main {
+        grid-template-columns: 25% 75%;
+    }
+}
+
+@media (max-width:920px) and (min-width:560px) {
+    .wrapper {
+        grid-template-rows: 100vh 93vh 7vh;
+    }
+    main {
+        grid-template-columns: 35% 65%;
+    }
+}
