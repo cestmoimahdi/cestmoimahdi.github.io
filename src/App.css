@@ -9,19 +9,13 @@ main {
     grid-template-columns: 100%;
 }
 
-@media (min-width:560px) {
-    .wrapper {
-        grid-template-rows: 100vh 93vh 7vh;
-    }
+@media (min-width:650px) {
     main {
         grid-template-columns: 25% 75%;
     }
 }
 
-@media (max-width:920px) and (min-width:560px) {
-    .wrapper {
-        grid-template-rows: 100vh 93vh 7vh;
-    }
+@media (max-width:920px) and (min-width:650px) {
     main {
         grid-template-columns: 35% 65%;
     }

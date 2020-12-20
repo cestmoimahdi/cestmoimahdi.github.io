@@ -1,0 +1,15 @@
+.cards {
+    margin: 20px 0;
+    width: 80%;
+}
+
+.Card-Item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.Card-Title {
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #b4b3b3;
+    font-size: 1.1em;
+}

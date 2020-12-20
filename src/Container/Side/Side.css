@@ -1,3 +1,22 @@
 .side {
     background-color: #ebebec;
 }
+
+.side-box {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+    background: url('../../images/pic.jpg') left 5% top 5%/cover;
+    background-size: 280px auto;
+    filter: grayscale(100%);
+}

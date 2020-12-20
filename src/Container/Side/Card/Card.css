@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.Card-Key {
+    font-family: Montserrat-reg;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 40%;
+}
+
+.Card-Value {
+    font-family: Montserrat-reg;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+@media (min-width:1810px) {
+    .card {
+        flex-direction: row;
+    }
+    .Card-Key {
+        font-size: 1rem;
+    }
+    .Card-Value {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:1810px) and (min-width:650px) {
+    .card {
+        flex-direction: column;
+    }
+    .Card-Key {
+        font-size: 0.9rem;
+    }
+    .Card-Value {
+        font-size: 0.8rem;
+    }
+}
