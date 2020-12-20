@@ -18,7 +18,10 @@
 @font-face {
     font-family: Montserrat-reg;
     src: url('./fonts/Montserrat/Montserrat-Regular.ttf');
-    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box !important;
 }
 
 body {

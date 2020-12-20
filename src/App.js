@@ -3,6 +3,7 @@ import Header from './Container/Header/Header'
 import Side from './Container/Side/Side'
 import Main from './Container/Main/Main'
 import Footer from './Container/Footer/Footer'
+import './App.css'
 
 const App = ()=>{
     return(
