@@ -24,7 +24,7 @@ const Card = (props) => {
         })
     }
 
-    console.log(itemsArray)
+    // console.log(itemsArray)
     return (
         <div className="content">
             {card}

@@ -1,0 +1,71 @@
+.formal {
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    margin: 10px 0 0 0;
+    padding: 5px 5px 5px 10px;
+    background-color: #2f383a;
+    color: #fff;
+    width: 95px;
+    text-align: center;
+    position: relative;
+}
+
+.date::after {
+    left: 100%;
+    top: 25px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-left-color: #2f383a;
+    border-width: 14.5px;
+    margin-top: -25px;
+}
+
+.right {
+    margin: 25px 0 0 40px;
+    padding-left: 40px;
+    border-left: 1px solid #2f383a;
+    position: relative;
+    letter-spacing: 0.05em;
+}
+
+.formal:not(:last-child) .right {
+    padding-bottom: 20px;
+}
+
+.formal:not(:first-child) {
+    margin-top: -22px;
+}
+
+.formal:last-child .describe {
+    margin-bottom: -3px;
+}
+
+.title {
+    margin: -15px 0 0 0 !important;
+    font-family: Montserrat-reg;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.place {
+    font-family: Montserrat-reg;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #2f383a;
+    z-index: 99;
+    margin-left: -45px;
+    margin-top: -4px;
+    border-radius: 50%;
+}
