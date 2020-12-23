@@ -16,6 +16,11 @@
     font-size: 0.9rem;
 }
 
+.Card-Value a {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media (min-width:1810px) {
     .card {
         flex-direction: row;

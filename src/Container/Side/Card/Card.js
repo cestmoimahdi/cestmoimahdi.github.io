@@ -16,7 +16,7 @@ const Card = (props) => {
             return(
                 <div className="card" key={item.prop}>
                     <h2 className="Card-Key">{item.prop.toUpperCase()}</h2>
-                    <h3 className="Card-Value">{item.values}</h3>
+                    <h3 className="Card-Value"><a href="#">{item.values}</a></h3>
                 </div>
             )
         })
