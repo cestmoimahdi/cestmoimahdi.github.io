@@ -1,3 +1,10 @@
 .menus a {
+    text-decoration: none;
+    color: inherit;
     padding: 0 20px;
+    letter-spacing: .2rem;
+}
+
+.menus a:hover {
+    color: #868686;
 }

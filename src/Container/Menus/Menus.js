@@ -5,7 +5,7 @@ const Menus = ()=>{
     return(
         <div className="menus">
             <a href="#">Resume</a>
-            <a href="#">Courses</a>
+            <a href="#">Cesrtificates</a>
             <a href="#">Projects</a>
         </div>
     )
