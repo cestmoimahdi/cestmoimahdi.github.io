@@ -1,4 +1,5 @@
 import React from 'react'
+import Span from '../../../Components/Span/Span'
 import './Formal.css'
 
 const Formal = (props)=>{
@@ -22,6 +23,7 @@ const Formal = (props)=>{
                     </div>
                     <div className="right">
                         <div className="circle"></div>
+                        <Span page={item.values.page}/>
                         <h2 className="title">{item.values.title}</h2>
                         <h3 className="place">{item.values.place}</h3>
                         <p className="describe">{item.values.desc}</p>

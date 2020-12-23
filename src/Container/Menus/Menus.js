@@ -11,3 +11,4 @@ const Menus = ()=>{
     )
 }
 
+export default Menus

@@ -1,11 +1,19 @@
+.menus {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
 .menus a {
     text-decoration: none;
-    color: inherit;
-    padding: 0 5px;
+    color: #ffffff;
+    margin: 0 7px;
+    padding: 5px;
 }
 
 .menus a:hover {
-    color: #868686;
+    color: #ccaacc;
 }
 
 
@@ -16,8 +24,8 @@
     }
 } */
 
-@media (min-width:490px) and (max-width:635px) {
-    .menus a {
-        padding: 0 10px;
+@media (min-width:365px) {
+    .menus {
+        flex-direction: row;
     }
 }
