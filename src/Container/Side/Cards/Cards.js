@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Card/Card'
+import Title from '../../../Components/Title/Title'
 import './Cards.css'
 
 const Cards = (props)=>{
@@ -17,7 +18,8 @@ const Cards = (props)=>{
         cards = itemsArray.map((item)=>{
             return(
                 <div className="Card-Item" key={item.prop}>
-                    <h2 className="Card-Title">{item.prop.toUpperCase()}</h2>
+                    {/* <h2 className="Card-Title">{item.prop.toUpperCase()}</h2> */}
+                    <Title title={item.prop}/>
                     <Card values={item.values}/>
                 </div>
             )
