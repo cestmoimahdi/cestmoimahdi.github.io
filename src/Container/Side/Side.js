@@ -10,13 +10,13 @@ const Side = () => {
             languages : 'Persian, English, Turkish'
         },
         Contact : {
-            mobile : '+98 9016800390',
-            email : 'Mahdiasemani98@yahoo.com',
+            mobile : { value : '+98 9016800390' , click : 'tel:+989016800390' },
+            email : { value : 'Mahdiasemani98@yahoo.com', click : 'mailto:mahdiasemani98@yahoo.com' },
             address : 'Tehransar, Tehran, Iran'
         },
         social : {
-            github : 'github.com/Cestmoimahdi',
-            linkedin: 'linkedin.com/Cestmoimahdi'
+            github : { value : 'github.com/Cestmoimahdi', click : 'https://github.com/Cestmoimahdi' },
+            linkedin: { value : 'linkedin.com/Cestmoimahdi' ,click : 'https://linkedin.com/Cestmoimahdi' }
         }
     })
     return (
