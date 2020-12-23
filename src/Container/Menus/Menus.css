@@ -1,10 +1,17 @@
 .menus a {
     text-decoration: none;
     color: inherit;
-    padding: 0 20px;
-    letter-spacing: .2rem;
+    padding: 0 5px;
+    letter-spacing: .1rem;
 }
 
 .menus a:hover {
     color: #868686;
+}
+
+@media (min-width:635px) {
+    .menus a {
+        padding: 0 20px;
+        letter-spacing: .2rem;
+    }
 }
