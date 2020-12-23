@@ -25,33 +25,47 @@ const Main = () => {
                 desc:'Last year student of Computer Engineering - Information Technology'
             }
         },
-    })
-    const [stateTech,setStateTech] = useState({
         'Could Count on Me...' :{
-            'Front-End Developer' :{
-                start:'Nov 2017',
+            'Nov 2017' :{
+                title:"Front-End Developer",
+                desc:'Html Css Bootstarp Jquery Javascript Reactjs ...',
+                click:'',
                 tech:{
                     'Basics':['html','css','bootsrtap','jquery'],
                     'Javascript' :['javascript','es6','react'],
                     'Package Manager' : ['npm','yarn'],
-                    'more' : ['threejs','webpack','git']
+                    'More' : ['webpack','git','threejs']
                 }
             },
-            'Back-End Developer' :{
-                place:'Oct 2020',
+            'Oct 2020' :{
+                title:"Back-End Developer",
+                desc:'Nodejs Express Mongodb ...',
+                click:'',
                 tech:{
                     'Basics':['html','css','bootsrtap','jquery'],
                     'Javascript' :['javascript','es6','react'],
                     'Package Manager' : ['npm','yarn'],
-                    'more' : ['threejs','webpack','git']
+                    'More' : ['webpack','git','threejs']
                 }
             },
+            'Jul 2020' :{
+                title:"Database Developer",
+                desc:'T-SQL Pl/SQl RDBMS NoSQL ...',
+                click:'',
+                tech:{
+                    'Basics':['html','css','bootsrtap','jquery'],
+                    'Javascript' :['javascript','es6','react'],
+                    'Package Manager' : ['npm','yarn'],
+                    'More' : ['webpack','git','threejs']
+                }
+            }
         },
     })
     return (
         <div className="main">
             <div className="main-box">
                 <Formals items={state}/>
+                {/* <Formals items={state}/> */}
             </div>
         </div>
     )
