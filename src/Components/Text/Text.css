@@ -2,3 +2,7 @@
     text-decoration: none;
     color: inherit;
 }
+
+.text-a:hover {
+    color: #868686;
+}

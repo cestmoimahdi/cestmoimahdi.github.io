@@ -1,5 +1,6 @@
 import React,{ useState } from 'react'
 import Formals from './Formals/Formals'
+import Menus from '../Menus/Menus'
 import './Main.css'
 
 const Main = () => {
@@ -64,8 +65,8 @@ const Main = () => {
     return (
         <div className="main">
             <div className="main-box">
+                <Menus />
                 <Formals items={state}/>
-                {/* <Formals items={state}/> */}
             </div>
         </div>
     )

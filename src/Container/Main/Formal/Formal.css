@@ -8,9 +8,10 @@
     padding: 5px 5px 5px 10px;
     background-color: #2f383a;
     color: #fff;
-    width: 95px;
+    width: 80px;
     text-align: center;
     position: relative;
+    font-size: 0.8rem;
 }
 
 .date::after {
@@ -23,13 +24,13 @@
     position: absolute;
     pointer-events: none;
     border-left-color: #2f383a;
-    border-width: 14.5px;
+    border-width: 12.5px;
     margin-top: -25px;
 }
 
 .right {
-    margin: 25px 0 0 40px;
-    padding-left: 40px;
+    margin: 25px 0 0 25px;
+    padding-left: 20px;
     border-left: 1px solid #2f383a;
     position: relative;
     letter-spacing: 0.05em;
@@ -51,21 +52,56 @@
     margin: -15px 0 0 0 !important;
     font-family: Montserrat-reg;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .place {
     font-family: Montserrat-reg;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.85rem;
+}
+
+.describe {
+    font-size: 0.85rem;
 }
 
 .circle {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #2f383a;
     z-index: 99;
-    margin-left: -45px;
+    margin-left: -24px;
     margin-top: -4px;
     border-radius: 50%;
+}
+
+@media (min-width:930px) {
+    .date {
+        width: 95px;
+        font-size: 1rem;
+    }
+    .date::after {
+        border-width: 14.5px;
+    }
+    .describe {
+        font-size: 0.9rem;
+    }
+    .right {
+        margin: 25px 0 0 40px;
+        padding-left: 40px;
+        border-left: 1px solid #2f383a;
+        position: relative;
+        letter-spacing: 0.05em;
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .place {
+        font-size: 1rem;
+    }
+    .circle {
+        width: 10px;
+        height: 10px;
+        margin-left: -45px;
+    }
 }
