@@ -8,4 +8,10 @@
     border-radius: 10px;
     color: #fff;
     font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.page:hover {
+    background-color: #ebebec;
+    color: #000000;
 }

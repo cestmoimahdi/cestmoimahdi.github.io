@@ -1,6 +1,6 @@
 .formal {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
 }
 
@@ -105,5 +105,11 @@
         width: 10px;
         height: 10px;
         margin-left: -45px;
+    }
+}
+
+@media(min-width:1250px) {
+    .formal {
+        flex-direction: row;
     }
 }
