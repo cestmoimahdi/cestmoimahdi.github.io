@@ -11,13 +11,13 @@ const Formal = (props)=>{
         })
     }
 
-    console.log(itemsArray)
+    // console.log(itemsArray)
 
     let formal = null;
     if(itemsArray){
         formal = itemsArray.map((item)=>{
             return (
-                <div className="formal">
+                <div className="formal" key={item.prop}>
                     <div className="left">
                         <p className="date">{item.prop}</p>
                     </div>

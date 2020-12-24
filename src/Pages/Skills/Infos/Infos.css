@@ -1,0 +1,8 @@
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.title span {
+    font-size: 1.1rem;
+}

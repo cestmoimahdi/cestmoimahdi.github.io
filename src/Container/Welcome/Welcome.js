@@ -1,13 +1,13 @@
 import React from 'react'
 import Logo from '../../Components/Logo/Logo'
-import './Header.css'
+import './Welcome.css'
 
-const Header = () => {
+const Welcome = () => {
     return ( 
-    <div className="header" >
+    <div className="welcome" >
         <Logo / >
     </div>
     )
 }
 
-export default Header
+export default Welcome
