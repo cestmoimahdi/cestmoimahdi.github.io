@@ -1,8 +1,18 @@
-.infos {
+.infos div {
+    margin-bottom: 20px;
+}
+
+.infos-title {
     display: flex;
     flex-direction: column;
 }
 
-.title span {
+.infos-title span {
     font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.infos-tech {
+    display: flex;
+    flex-direction: column;
 }

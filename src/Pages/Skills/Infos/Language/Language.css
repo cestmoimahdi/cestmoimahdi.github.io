@@ -1,0 +1,19 @@
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ebebec;
+    align-items: center;
+    flex: 30%;
+    padding: 2px 20px;
+    margin: -10px 5px;
+    border-radius: 10px;
+}
+
+.Card-Key {
+    font-family: Montserrat-reg;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-right: 30px;
+    width: 50%;
+}
