@@ -22,8 +22,17 @@
     }
 }
 
-@media(min-width:1700px) {
+@media(min-width:1745px) {
     .card {
         flex-direction: row;
+    }
+}
+
+@media(min-width:1840px) {
+    .Card-Key {
+        font-size: 1rem;
+    }
+    .Card-Value {
+        font-size: 0.9rem;
     }
 }

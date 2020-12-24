@@ -30,7 +30,7 @@
 }
 
 .right {
-    width: 100%;
+    width: 95%;
     margin: 25px 0 0 25px;
     padding-left: 20px;
     border-left: 1px solid #2f383a;
@@ -54,17 +54,17 @@
     margin: -15px 0 0 0 !important;
     font-family: Montserrat-reg;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.88rem;
 }
 
 .place {
     font-family: Montserrat-reg;
     font-weight: bold;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 .describe {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 .circle {
