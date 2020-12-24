@@ -1,11 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Span.css'
 
 const Span = (props) => {
     let page = null
     if(props.page){
-        console.log(props.page)
-        page =  <a className="page" onClick={props.page}>Page</a>
+        page =  <Link className="page" to={`/${props.page}`}>Page</Link>
     }
     return <div>{page}</div>
 }

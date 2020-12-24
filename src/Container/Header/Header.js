@@ -3,12 +3,10 @@ import Logo from '../../Components/Logo/Logo'
 import './Header.css'
 
 const Header = () => {
-    return ( <
-        div className = "header" >
-        <
-        Logo / >
-        <
-        /div>
+    return ( 
+    <div className="header" >
+        <Logo / >
+    </div>
     )
 }
 

@@ -1,28 +1,19 @@
 import React from 'react'
-import Header from './Container/Header/Header'
-import Side from './Container/Side/Side'
-import Main from './Container/Main/Main'
+import {BrowserRouter as Router } from 'react-router-dom'
 import Footer from './Container/Footer/Footer'
+import Blog from './Container/Blog/Blog'
 import './App.css'
 
 const App = ()=>{
     return(
-        <div className="wrapper">
-        <header>
-            <Header />
-        </header>
-        <main>
-            <div className='side'>
-                <Side />
+        <Router>
+            <div className="wrapper">
+                <Blog />
+                <footer>
+                    <Footer />
+                </footer>
             </div>
-            <div className='main'>
-                <Main />
-            </div>
-        </main>
-        <footer>
-            <Footer />
-        </footer>
-        </div>
+        </Router>
     )
 }
 

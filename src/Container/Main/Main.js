@@ -10,7 +10,7 @@ const Main = () => {
                 place:'Maila Pars Co.',
                 tech:['html','xml','css','jquery','javascript','threejs'],
                 desc:'Design Responsive user interfaces for mobile and desktop',
-                page :'#'
+                page :'mailapars'
             },
             'Jan 2017' :{
                 title:'Informatics Assistant',
@@ -23,7 +23,7 @@ const Main = () => {
         education:{
             'Sep 2016' :{
                 title:"Bachelor's degree - IT",
-                place:'Azad Islamic University Of Tehran',
+                place:'Islamic Azad University Of Tehran',
                 desc:'Last year student of Computer Engineering - Information Technology',
                 page :''
             }
@@ -39,7 +39,7 @@ const Main = () => {
                     'Package Manager' : ['npm','yarn'],
                     'More' : ['webpack','git','threejs']
                 },
-                page :'#'
+                page :'frontend'
             },
             'Oct 2020' :{
                 title:"Back-End Developer",
@@ -51,7 +51,7 @@ const Main = () => {
                     'Package Manager' : ['npm','yarn'],
                     'More' : ['webpack','git','threejs']
                 },
-                page :'#'
+                page :'backend'
             },
             'Jul 2020' :{
                 title:"Database Developer",
@@ -63,7 +63,7 @@ const Main = () => {
                     'Package Manager' : ['npm','yarn'],
                     'More' : ['webpack','git','threejs']
                 },
-                page :'#'
+                page :'dba'
             },
             'May 2019' :{
                 title:"Python Developer",
@@ -72,7 +72,7 @@ const Main = () => {
                 tech:{
                     'Basics':['Python'],
                 },
-                page :'#'
+                page :'python'
             },
         },
     })
