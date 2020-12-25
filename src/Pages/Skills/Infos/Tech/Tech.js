@@ -15,7 +15,7 @@ const Tech = (props)=>{
     let tech = itemsArray.map((i)=>{
         return <Language item={i} key={i.prop} />
     })
-    console.log(tech)
+    // console.log(tech)
 
     return(
         <div className="tech">

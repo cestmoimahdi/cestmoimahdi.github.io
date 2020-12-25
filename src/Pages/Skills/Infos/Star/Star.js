@@ -18,7 +18,7 @@ const Star = (props)=>{
     star = stars.map((i)=>{
         return <span className={`star-circle ${i.check}`} key={i.prop}></span>
     })
-    console.log(star)
+    // console.log(star)
     return (
         <div className="star-box">{star}</div>
     )

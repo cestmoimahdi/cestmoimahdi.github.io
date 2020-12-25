@@ -65,6 +65,9 @@
 
 .describe {
     font-size: 0.8rem;
+    line-height: 1.8;
+    text-align: justify;
+    ;
 }
 
 .circle {
@@ -112,4 +115,25 @@
     .formal {
         flex-direction: row;
     }
+}
+
+.formal-link-box {
+    top: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+.formal-link-box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    min-width: 50px;
+    background-color: #2f383a;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px 0;
 }

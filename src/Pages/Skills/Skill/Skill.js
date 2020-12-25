@@ -25,7 +25,7 @@ const Skill = (props) => {
             check = <Infos items={i.value}/>
         }
         return (
-            <div className="Card-Item" key={i.prop}>
+            <div className="skill-card-Item" key={i.prop}>
                 <Title title={i.prop}/>
                 {check}
             </div>
@@ -33,7 +33,7 @@ const Skill = (props) => {
     })
 
     return (
-        <div className="skill">
+        <div className="skill-box">
             {skills}
         </div>
     )
