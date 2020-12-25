@@ -121,16 +121,14 @@ const Skills = (props) => {
     if (!skill) { redirect = < Redirect to = "/404" / > }
 
 
-    return ( <
-        div className = "skills" > { redirect } <
-        div className = "skills-box" >
-        <
-        Resume / >
-        <
-        Skill items = { skill }
-        /> < /
-        div > <
-        /div>
+    return ( 
+        <div className="skills" > 
+            { redirect } 
+            <div className = "skills-box" >
+                <Resume / >
+                <Skill items = { skill }/>
+            </div>
+        </div>
     )
 }
 
