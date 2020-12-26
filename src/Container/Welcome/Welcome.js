@@ -4,9 +4,9 @@ import './Welcome.css'
 
 const Welcome = () => {
     return ( 
-    <div className="welcome" >
-        <Logo / >
-    </div>
+        <div className="welcome" >
+            <Logo main="Mahdi Asemani" description="Front-End Developer"/ >
+        </div>
     )
 }
 

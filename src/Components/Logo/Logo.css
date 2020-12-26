@@ -1,4 +1,4 @@
-.logo h2 {
+.logo-component h2 {
     color: azure;
     display: block;
     padding: 10px 25px;
@@ -7,7 +7,7 @@
     letter-spacing: 0.2em;
 }
 
-.logo h3 {
+.logo-component h3 {
     color: azure;
     position: relative;
     display: block;
@@ -17,7 +17,7 @@
     letter-spacing: 0.15em;
 }
 
-.logo h3::after {
+.logo-component h3::after {
     background-color: #efefef;
     bottom: 0;
     content: '';

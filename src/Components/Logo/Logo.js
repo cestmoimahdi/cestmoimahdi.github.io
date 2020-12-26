@@ -3,9 +3,9 @@ import './Logo.css'
 
 const Logo = (props)=>{
     return(
-        <div className='logo'>
-            <h2>Mahdi Asemani</h2>
-            <h3>Front-End Developer</h3>
+        <div className='logo-component'>
+            <h2>{props.main}</h2>
+            <h3>{props.description}</h3>
         </div>
         
     )
