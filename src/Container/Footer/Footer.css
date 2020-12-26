@@ -1,4 +1,4 @@
-.footer {
+.footer-box {
     width: 100%;
     background-color: #2f383a;
     display: flex;
@@ -8,13 +8,13 @@
     min-height: 7vh;
 }
 
-.designer {
+.footer-designer {
     color: azure;
     font-family: inherit;
     font-weight: normal;
     font-size: 13px;
 }
 
-.designer span {
+.footer-designer span {
     color: #c7c7c7;
 }

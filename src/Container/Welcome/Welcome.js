@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../../Components/Logo/Logo'
 import './Welcome.css'
 
-const Welcome = () => {
+const Welcome = (props) => {
     return ( 
         <div className="welcome" >
             <Logo main="Mahdi Asemani" description="Front-End Developer"/ >

@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from '../../../Components/Title/Title'
-import Formal from '../Formal/Formal'
+import Title from '../Title/Title'
+import Formal from './Formal/Formal'
 import './Formals.css'
 
 const Formals = (props) => {
@@ -17,7 +17,7 @@ const Formals = (props) => {
     if(itemsArray){
         formal = itemsArray.map((item)=>{
             return(
-                <div className="Card-Item" key={item.prop}>
+                <div className="formal-item" key={item.prop}>
                     <Title title={item.prop}/>
                     <Formal values={item.values}/>
                 </div>
@@ -26,7 +26,7 @@ const Formals = (props) => {
     }
 
     return (
-        <div className="formals">
+        <div className="formals-box">
             {formal}
         </div>
     )

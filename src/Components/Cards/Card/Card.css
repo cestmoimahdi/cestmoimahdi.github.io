@@ -1,38 +1,38 @@
-.card {
+.side-card-item {
     display: flex;
     flex-direction: column;
 }
 
-.Card-Key {
+.side-card-key {
     font-family: Montserrat-reg;
     font-weight: bold;
     font-size: 0.9rem;
     width: 40%;
 }
 
-.Card-Value {
+.side-card-value {
     font-family: Montserrat-reg;
     font-weight: normal;
     font-size: 0.85rem;
 }
 
 @media (min-width:450px) and (max-width:649px) {
-    .card {
+    .side-card-item {
         flex-direction: row;
     }
 }
 
 @media(min-width:1745px) {
-    .card {
+    .side-card-item {
         flex-direction: row;
     }
 }
 
 @media(min-width:1840px) {
-    .Card-Key {
+    .side-card-key {
         font-size: 1rem;
     }
-    .Card-Value {
+    .side-card-value {
         font-size: 0.9rem;
     }
 }

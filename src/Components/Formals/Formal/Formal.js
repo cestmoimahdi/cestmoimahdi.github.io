@@ -1,5 +1,5 @@
 import React from 'react'
-import Span from '../../../Components/Span/Span'
+import Span from '../../Span/Span'
 import './Formal.css'
 
 const Formal = (props)=>{

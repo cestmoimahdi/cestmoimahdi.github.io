@@ -1,5 +1,5 @@
 import React from 'react'
-import Text from '../../../Components/Text/Text'
+import Text from '../../Text/Text'
 import './Card.css'
 
 const Card = (props) => {
@@ -16,9 +16,9 @@ const Card = (props) => {
         card = itemsArray.map((item)=>{
             // console.log(item.values)
             return(
-                <div className="card" key={item.prop}>
-                    <h2 className="Card-Key">{item.prop.toUpperCase()}</h2>
-                    <h3 className="Card-Value"><Text info={item.values}/></h3>
+                <div className="side-card-item" key={item.prop}>
+                    <h2 className="side-card-key">{item.prop.toUpperCase()}</h2>
+                    <h3 className="side-card-value"><Text info={item.values}/></h3>
                 </div>
             )
         })
@@ -26,7 +26,7 @@ const Card = (props) => {
 
     // console.log(itemsArray)
     return (
-        <div className="content">
+        <div className="side-card-box">
             {card}
         </div>
     )

@@ -1,5 +1,5 @@
 import React , {useState} from 'react'
-import Cards from './Cards/Cards'
+import Cards from '../../Components/Cards/Cards'
 import './Side.css'
 
 const Side = () => {
@@ -22,7 +22,7 @@ const Side = () => {
     return (
         <div className="side">
             <div className="side-box">
-                <div className="image"></div>
+                <div className="side-logo-image"></div>
                 <Cards items={state}/>
             </div>
         </div>

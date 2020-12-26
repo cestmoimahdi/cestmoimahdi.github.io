@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import Formal from '../../../Container/Main/Formal/Formal'
+import Formal from '../Formals/Formal/Formal'
 
 const Projects = (props)=>{
 

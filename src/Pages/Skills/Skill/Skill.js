@@ -1,8 +1,8 @@
 import React from 'react'
 import Title from '../../../Components/Title/Title';
-import Courses from '../Courses/Courses'
-import Projects from '../Projects/Projects'
-import Infos from '../Infos/Infos'
+import Courses from '../../../Components/Courses/Courses'
+import Projects from '../../../Components/Projects/Projects'
+import Infos from '../../../Components/Infos/Infos'
 import './Skill.css'
 
 const Skill = (props) => {

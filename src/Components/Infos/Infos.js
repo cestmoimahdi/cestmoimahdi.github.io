@@ -1,5 +1,5 @@
 import React from 'react'
-import Tech from './Tech/Tech'
+import Tech from '../Tech/Tech'
 import './Infos.css'
 
 const Infos = (props)=>{
@@ -11,11 +11,11 @@ const Infos = (props)=>{
     }
 
     return(
-        <div className="infos">
+        <div className="infos-box">
             <div>{props.items.desc}</div>
-            <div className="infos-title">
+            <div className="infos-item">
                 <div> <span> Since </span> {props.items.since} </div>
-                <div className="infos-tech"> <span> Languages, Frameworks, Libraries And ... </span>{tech} </div>
+                <div className="infos-lang"> <span> Languages, Frameworks, Libraries And ... </span>{tech}</div>
             </div>
         </div>
     )

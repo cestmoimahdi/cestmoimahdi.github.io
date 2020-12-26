@@ -18,7 +18,7 @@ const Tech = (props)=>{
     // console.log(tech)
 
     return(
-        <div className="tech">
+        <div className="tech-box">
             {tech}
         </div>
     )

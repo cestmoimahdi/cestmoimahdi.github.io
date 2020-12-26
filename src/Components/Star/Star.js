@@ -7,7 +7,7 @@ const Star = (props)=>{
     let stars = []
     for(let item = 5 ; item > 0 ; item--){
         if (count > 0){
-            stars.push({prop:item,check:'checked'})
+            stars.push({prop:item,check:'star-checked'})
         }else{
             stars.push({prop:item,check:''})
         }

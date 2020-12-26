@@ -1,8 +1,8 @@
-.cards {
+.formals-box {
     margin: 20px 0;
     width: 80%;
 }
 
-.Card-Item:not(:last-child) {
+.formal-item:not(:last-child) {
     margin-bottom: 50px;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from '../Card/Card'
-import Title from '../../../Components/Title/Title'
+import Card from './Card/Card'
+import Title from '../Title/Title'
 import './Cards.css'
 
 const Cards = (props)=>{
@@ -17,8 +17,7 @@ const Cards = (props)=>{
     if(itemsArray){
         cards = itemsArray.map((item)=>{
             return(
-                <div className="Card-Item" key={item.prop}>
-                    {/* <h2 className="Card-Title">{item.prop.toUpperCase()}</h2> */}
+                <div className="cards-item" key={item.prop}>
                     <Title title={item.prop}/>
                     <Card values={item.values}/>
                 </div>
@@ -27,7 +26,7 @@ const Cards = (props)=>{
     }
 
     return(
-        <div className='cards'>
+        <div className='cards-box'>
             {cards}
         </div>
     )

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Formals from './Formals/Formals'
+import Formals from '../../Components/Formals/Formals'
 import './Main.css'
 
 const Main = () => {

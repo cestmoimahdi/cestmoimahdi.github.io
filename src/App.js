@@ -22,7 +22,7 @@ const App = ()=>{
                     </div>
                 </main>
                 <footer>
-                        <Footer />
+                        <Footer designer="Mahdi Asemani" lang="Reactjs" />
                 </footer>
             </div>
         </Router>

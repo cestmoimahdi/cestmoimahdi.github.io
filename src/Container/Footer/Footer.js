@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
 
-const Footer = () => {
+const Footer = (props) => {
     return(
-        <div className="footer">
-            <h4 className="designer">Designed by <span>Mahdi Asemani</span> with <span>Reactjs</span></h4>
+        <div className="footer-box">
+            <h4 className="footer-designer">Designed by <span>{props.designer}</span> with <span>{props.lang}</span></h4>
         </div>
     )
 }

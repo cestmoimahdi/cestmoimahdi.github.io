@@ -1,4 +1,4 @@
-.language {
+.language-item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     border-radius: 10px;
 }
 
-.Card-Key {
+.language-key {
     font-family: Montserrat-reg;
     font-weight: bold;
     font-size: 0.9rem;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Redirect } from 'react-router-dom';
-import Resume from '../../Components/Resume/Resume';
+import Back from '../../Components/Back/Back';
 import Skill from './Skill/Skill'
 import './Skills.css'
 
@@ -125,7 +125,7 @@ const Skills = (props) => {
         <div className="skills" > 
             { redirect } 
             <div className = "skills-box" >
-                <Resume / >
+                <Back / >
                 <Skill items = { skill }/>
             </div>
         </div>
