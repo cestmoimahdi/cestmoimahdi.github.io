@@ -1,8 +1,8 @@
-.text-a {
+.text-a-component {
     text-decoration: none;
     color: inherit;
 }
 
-.text-a:hover {
+.text-a-component:hover {
     color: #868686;
 }

@@ -1,0 +1,7 @@
+.back-component img {
+    width: 15px;
+}
+
+.back-component:hover {
+    cursor: pointer;
+}

@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
 import Home from '../../images/home.png'
-import './Resume.css'
+import './Back.css'
 
-const Resume = ()=>{
+const Back = ()=>{
     return(
-        <div className="resume">
+        <div className="back-component">
             <Link to="/">
             <img src={Home}/>
             </Link>
@@ -13,4 +13,4 @@ const Resume = ()=>{
     )
 }
 
-export default Resume
+export default Back
