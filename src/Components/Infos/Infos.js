@@ -12,7 +12,7 @@ const Infos = (props)=>{
 
     return(
         <div className="infos-box">
-            <div>{props.items.desc}</div>
+            <div className="infos-desc">{props.items.desc}</div>
             <div className="infos-item">
                 <div> <span> Since </span> {props.items.since} </div>
                 <div className="infos-lang"> <span> Languages, Frameworks, Libraries And ... </span>{tech}</div>

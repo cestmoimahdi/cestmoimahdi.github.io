@@ -16,3 +16,8 @@
     display: flex;
     flex-direction: column;
 }
+
+.infos-desc {
+    line-height: 1.8;
+    text-align: justify;
+}

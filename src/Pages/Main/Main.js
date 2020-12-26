@@ -9,13 +9,11 @@ const Main = () => {
                 title:'Front-End Developer',
                 place:'Maila Pars Co.',
                 desc:'Design Responsive user interfaces for mobile and desktop',
-                // page :'mailapars'
             },
             'Jan 2017' :{
                 title:'Informatics Assistant',
                 place:'Water and sewage Org.',
                 desc:'Help with Computer issues in needed sections',
-                page :''
             }
         },
         education:{
@@ -23,29 +21,36 @@ const Main = () => {
                 title:"Bachelor's degree - IT",
                 place:'Islamic Azad University Of Tehran',
                 desc:'Last year student of Computer Engineering - Information Technology',
-                page :''
             }
         },
         'Could Count on Me...' :{
             'Nov 2017' :{
                 title:"Front-End Developer",
                 desc:'Html Css Bootstarp Jquery Javascript Reactjs ...',
-                page :'frontend'
+                links:{
+                    page :'frontend'
+                }
             },
             'Oct 2020' :{
                 title:"Back-End Developer",
                 desc:'Nodejs Express Mongodb ...',
-                page :'backend'
+                links:{
+                    page :'backend'
+                }
             },
             'Jul 2020' :{
                 title:"Database Developer",
                 desc:'T-SQL Pl/SQl RDBMS NoSQL ...',
-                page :'dba'
+                links:{
+                    page :'dba'
+                }
             },
             'May 2019' :{
                 title:"Python Developer",
                 desc:'Python ...',
-                page :'python'
+                links:{
+                    page :'python'
+                }
             },
         },
     })

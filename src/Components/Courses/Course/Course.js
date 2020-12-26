@@ -1,5 +1,5 @@
 import React from 'react'
-import Span from '../../Span/Span'
+import Spans from '../../Spans/Spans'
 import './Course.css'
 
 const Course = (props)=>{
@@ -10,8 +10,8 @@ const Course = (props)=>{
 
     return(
         <div className="course-item">
-            <Span cert={props.infos.cert} />
-             <h3 className="course-item-title">{props.title}</h3>
+            <Spans pages={props.infos.links} />
+            <h3 className="course-item-title">{props.title}</h3>
             <p className="course-item-desc">{props.infos.desc}</p>
             <p className="course-item-from"><span className="course-item-infos-title">From : </span>{props.infos.from}</p>
             <p className="course-item-date"><span className="course-item-infos-title">Issue Date : </span>{props.infos.date}</p>

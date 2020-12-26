@@ -30,7 +30,9 @@ const Skills = (props) => {
                     date: 'October 2020',
                     duration: 'Project-Oriented',
                     from: 'Quera College',
-                    cert: 'https://quera.ir/certificate/rjPnZ34g/'
+                    links:{
+                        Certificate: 'https://quera.ir/certificate/rjPnZ34g/'
+                    }
                 },
             },
             projects: {
@@ -38,9 +40,11 @@ const Skills = (props) => {
                     date: 'Nov 2019',
                     title: 'Personal CV Website',
                     place: 'Reactjs JSX Javascript HTML CSS',
-                    desc: "Responsive Single Page Application For my First React project ever.All codes are in React and JSX which is styled by Css , All Links are by React Routing Library So it's like an SPA. Main structure of Project is based on grid display. All components are reusable and based on flex display. Anybody can use Sourcecode and can customize it there is no copyright:) All states are in App.js to handle All easily",
-                    git: 'https://github.com/cestmoimahdi/cestmoimahdi.github.io',
-                    site: 'https://cestmoimahdi.github.io'
+                    desc: "Responsive Single Page Application For my First React project ever.All codes are in React and JSX which is styled by Css , All Links are by React Routing Library So it's like an SPA. Main structure of Project is based on grid display. All components are reusable and based on flex display. Anybody can use Sourcecode and can customize it there is no copyright:) All states are in App.js to handle it easily",
+                    links:{
+                        Github: 'https://github.com/cestmoimahdi/cestmoimahdi.github.io',
+                        Website: 'https://cestmoimahdi.github.io'
+                    }
                 },
             }
         },
@@ -74,7 +78,9 @@ const Skills = (props) => {
                     date: 'Jul 2020',
                     duration: '40h',
                     from: 'Tehran University',
-                    cert: '#'
+                    links:{
+                        Certificate: ''
+                    }
                 },
             },
             projects: {}
@@ -93,21 +99,27 @@ const Skills = (props) => {
                     date: 'April 2020',
                     duration: 'Task-Oriented',
                     from: 'Quera College',
-                    cert: 'https://quera.ir/certificate/c06NQCtk/'
+                    links:{
+                        Certificate: 'https://quera.ir/certificate/c06NQCtk/'
+                    }
                 },
                 'Advanced Python Programming': {
                     desc: 'Advanced Python Programming and Object-Oriented Thinking Course',
                     date: 'May 2020',
                     duration: 'Task-Oriented',
                     from: 'Quera College',
-                    cert: 'https://quera.ir/certificate/zsD46sTK/'
+                    links:{
+                        Certificate: 'https://quera.ir/certificate/zsD46sTK/'
+                    }
                 },
                 'Python For Every One': {
                     desc: 'Task-Oriented Course in Fundamentals of Python Programming and Algorithmic Thinking',
                     date: 'November 2020',
                     duration: 'Task-Oriented',
                     from: 'Coursera',
-                    cert: ''
+                    links:{
+                        Certificate: ''
+                    }
                 },
             },
             projects: {}

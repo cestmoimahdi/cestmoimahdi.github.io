@@ -1,0 +1,8 @@
+.spans-link-box {
+    top: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: -15px;
+}
