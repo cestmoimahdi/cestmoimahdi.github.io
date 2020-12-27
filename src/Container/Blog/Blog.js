@@ -5,13 +5,13 @@ import Notfound from '../../Pages/Notfound/Notfound'
 import Main from '../../Pages/Main/Main'
 import './Blog.css'
 
-const Blog = ()=>{
+const Blog = (props)=>{
     return(
         <div className="routing-wrapper">
             <Switch>
-                <Route path="/" exact component={Main} />
+                <Route path="/" exact component={()=><Main main={props.main}/>} />
                 <Route path="/404" component={Notfound} />
-                <Route path="/:page" exact component={Skills} />
+                <Route path="/:page" exact component={(e)=><Skills skills={props.skills} info={e}/>} />
                 <Route component={Notfound} />
             </Switch>
         </div>

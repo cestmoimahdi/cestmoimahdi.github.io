@@ -1,29 +1,13 @@
-import React , {useState} from 'react'
+import React from 'react'
 import Cards from '../../Components/Cards/Cards'
 import './Side.css'
 
-const Side = () => {
-    const [state,setState] = useState({
-        Personal : {
-            name : 'Mahdi Asemani',
-            birthday : 'January 8th, 1998 (23)',
-            languages : 'Persian, English, Turkish'
-        },
-        Contact : {
-            mobile : { value : '+98 9016800390' , click : 'tel:+989016800390' },
-            email : { value : 'Mahdiasemani98@yahoo.com', click : 'mailto:mahdiasemani98@yahoo.com' },
-            address : 'Tehransar, Tehran, Iran'
-        },
-        social : {
-            github : { value : 'github.com/Cestmoimahdi', click : 'https://github.com/Cestmoimahdi' },
-            linkedin: { value : 'linkedin.com/Cestmoimahdi' ,click : 'https://linkedin.com/Cestmoimahdi' }
-        }
-    })
+const Side = (props) => {
     return (
         <div className="side">
             <div className="side-box">
                 <div className="side-logo-image"></div>
-                <Cards items={state}/>
+                <Cards items={props.side}/>
             </div>
         </div>
     )

@@ -4,8 +4,8 @@ import './Logo.css'
 const Logo = (props)=>{
     return(
         <div className='logo-component'>
-            <h2>{props.main}</h2>
-            <h3>{props.description}</h3>
+            <h2>{props.logo.name}</h2>
+            <h3>{props.logo.description}</h3>
         </div>
         
     )
