@@ -5,7 +5,7 @@ import Formal from '../Formals/Formal/Formal'
 const Projects = (props)=>{
 
     let projects = []
-    let project = 'Not Project Yet!!'
+    let project = []
     if(props.items){
         for(let i in props.items){
             projects.push({
@@ -23,6 +23,11 @@ const Projects = (props)=>{
             })
         }
     }
+
+    if (project.length === 0){
+        project = 'No Project Yet!!'
+    }
+
     return(
         <div className="projects-box">{project}</div>
     )

@@ -15,6 +15,9 @@ const App = ()=>{
                     title:'Front-End Developer',
                     place:'Maila Pars Co.',
                     desc:'Design Responsive user interfaces for mobile and desktop',
+                    links:{
+                        page :'work/mailapars'
+                    }
                 },
                 'Jan 2017' :{
                     title:'Informatics Assistant',
@@ -34,31 +37,57 @@ const App = ()=>{
                     title:"Front-End Developer",
                     desc:'Html Css Bootstarp Jquery Javascript Reactjs ...',
                     links:{
-                        page :'frontend'
+                        page :'skill/frontend'
                     }
                 },
                 'Oct 2020' :{
                     title:"Back-End Developer",
                     desc:'Nodejs Express Mongodb ...',
                     links:{
-                        page :'backend'
+                        page :'skill/backend'
                     }
                 },
                 'Jul 2020' :{
                     title:"Database Developer",
                     desc:'T-SQL Pl/SQl RDBMS NoSQL ...',
                     links:{
-                        page :'dba'
+                        page :'skill/dba'
                     }
                 },
                 'May 2019' :{
                     title:"Python Developer",
                     desc:'Python ...',
                     links:{
-                        page :'python'
+                        page :'skill/python'
+                    }
+                },
+                'Jun 2020' :{
+                    title:"AI Developer",
+                    desc:'Artificial intelligence Supervised and UnSupervised learning Algorithms like Regression, Classification, Clustering And ...',
+                    links:{
+                        page :'skill/ai'
                     }
                 },
             },
+            'languages and softwares':{
+                'javascript': 4,
+                'Python': 4,
+                'Photoshop':4,
+                'SQL Server':'4',
+                'Office':'4'
+            }
+        },
+        works:{
+            'mailapars':{
+                place:'Maila Pars Co.',
+                desc:'my Career starts in Nov 2019 as FontEnd developer who works with krpano and customize plugins and rebuild old user interface and make new one for new employers who delegate their projects to us.recently working on create something new with threejs',
+                post:'Software & Front-End developer',
+                location:'Kolahdouz St. ,Pasdaran Ave. ,Tehran ,Iran',
+                since:'Nov 2019',
+                phone:'+98 2122776354',
+                tech:['html','css','xml','javascript','jquery','threejs','unreal engine'],
+                projects:{}
+            }
         },
         skills:{
             'frontend': {
@@ -76,7 +105,6 @@ const App = ()=>{
                         'npm': 3,
                         'webpack': 2,
                         'git': 2,
-                        'threejs': 2
                     }
                 },
                 courses: {
@@ -172,13 +200,35 @@ const App = ()=>{
                         date: 'November 2020',
                         duration: 'Task-Oriented',
                         from: 'Coursera',
+                    },
+                },
+                projects: {}
+            },
+            'ai':{
+                "Ai Developer": {
+                    desc: 'Artificial intelligence Supervised and UnSupervised learning Algorithms like Regression, Classification, Clustering And ...',
+                    since: 'Feb 2020',
+                    tech: {
+                        'Regression': 4,
+                        'classification': 4,
+                        'Clustering': 3,
+                        'Neural Network': 3,
+                        'CNN': 3,
+                    }
+                },
+                courses: {
+                    'T-SQL Fundamentals': {
+                        desc: 'Task-Oriented Course in Machine Learning Include Supervised and UnSupervised learning Algorithms like Regression, Classification, Clustering And ...',
+                        date: 'Jun 2020',
+                        duration: '30h',
+                        from: 'Robotech Academy',
                         links:{
                             Certificate: ''
                         }
                     },
                 },
-                projects: {}
-            },
+                projects:{}
+            }
         },
         side:{
             Personal : {
@@ -218,7 +268,7 @@ const App = ()=>{
                         <Side side={state.side}/>
                     </div>
                     <div className='main'>
-                        <Blog main={state.main} skills={state.skills}/>
+                        <Blog main={state.main} skills={state.skills} works={state.works}/>
                     </div>
                 </main>
                 <footer>

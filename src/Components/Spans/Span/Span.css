@@ -10,6 +10,11 @@
     margin: 3px 0;
 }
 
+.item-link:hover {
+    background-color: #ebebec;
+    color: #000000;
+}
+
 .link-a {
     text-decoration: none;
     color: inherit;

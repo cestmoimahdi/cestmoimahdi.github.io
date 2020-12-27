@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from '../Title/Title'
 import Formal from './Formal/Formal'
+import Tech from '../Tech/Tech'
 import './Formals.css'
 
 const Formals = (props) => {
@@ -16,10 +17,12 @@ const Formals = (props) => {
     let formal = null;
     if(itemsArray){
         formal = itemsArray.map((item)=>{
+            let formalItem = <Formal values={item.values}/>
+            if (item.prop.startsWith('languages')){ formalItem = <Tech items={item.values}/> }
             return(
                 <div className="formal-item" key={item.prop}>
                     <Title title={item.prop}/>
-                    <Formal values={item.values}/>
+                    {formalItem}
                 </div>
             )
         })

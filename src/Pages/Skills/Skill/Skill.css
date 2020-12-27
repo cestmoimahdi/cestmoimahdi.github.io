@@ -7,10 +7,6 @@
     margin-bottom: 50px;
 }
 
-.skill-card-Item:nth-child(2) {
-    margin-top: -50px;
-}
-
 @media(min-width:830px) {
     .skill-box {
         width: 85%;

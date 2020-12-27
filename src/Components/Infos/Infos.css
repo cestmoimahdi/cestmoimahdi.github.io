@@ -1,7 +1,3 @@
-.infos-box div {
-    margin-bottom: 20px;
-}
-
 .infos-item {
     display: flex;
     flex-direction: column;
@@ -20,4 +16,8 @@
 .infos-desc {
     line-height: 1.8;
     text-align: justify;
+}
+
+.infos-time {
+    margin-bottom: 5px;
 }
