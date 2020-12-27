@@ -15,7 +15,7 @@ const Span = (props) => {
         else{
             link =(
                 <div className={`item-link ${props.type}`} >
-                    <a className="link-a" href={props.toload}>{props.type}</a>
+                    <a className="link-a" target="_blank" href={props.toload}>{props.type}</a>
                 </div>
             )
         }

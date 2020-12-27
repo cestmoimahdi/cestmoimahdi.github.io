@@ -162,8 +162,14 @@ const App = ()=>{
                         date: 'Jul 2020',
                         duration: '40h',
                         from: 'Tehran University',
+                    },
+                    'Querying SQL Server': {
+                        desc: 'Course 70-461 Querying Microsoft SQL Server 2012/2014',
+                        date: 'Nov 2020',
+                        duration: '9h',
+                        from: 'Pluralsight',
                         links:{
-                            Certificate: ''
+                            Certificate: './images/pularsight_sql70461.pdf'
                         }
                     },
                 },
@@ -201,6 +207,9 @@ const App = ()=>{
                         date: 'November 2020',
                         duration: 'Task-Oriented',
                         from: 'Coursera',
+                        links:{
+                            Certificate: 'https://coursera.org/verify/W3A2C7GH5YD2'
+                        }
                     },
                 },
                 projects: {}
