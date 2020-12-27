@@ -169,7 +169,7 @@ const App = ()=>{
                         duration: '9h',
                         from: 'Pluralsight',
                         links:{
-                            Certificate: 'https://github.com/cestmoimahdi/cestmoimahdi.github.io/blob/main/src/images/pularsight_sql70461.pdf'
+                            Certificate: 'https://github.com/cestmoimahdi/cestmoimahdi.github.io/blob/main/src/images/pularsight_sql70461.jpg'
                         }
                     },
                 },
