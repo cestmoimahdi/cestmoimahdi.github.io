@@ -1,6 +1,6 @@
 .skill-box {
     margin: 20px 0;
-    width: 80%;
+    width: 90%;
 }
 
 .skill-card-Item:not(:last-child) {
@@ -9,4 +9,10 @@
 
 .skill-card-Item:nth-child(2) {
     margin-top: -50px;
+}
+
+@media(min-width:830px) {
+    .skill-box {
+        width: 85%;
+    }
 }

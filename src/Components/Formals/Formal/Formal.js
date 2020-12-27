@@ -28,9 +28,9 @@ const Formal = (props)=>{
                     </div>
                     <div className="right">
                         <div className="circle"></div>
-                        {spanItem}
                         <h2 className="title">{item.values.title}</h2>
                         <h3 className="place">{item.values.place}</h3>
+                        {spanItem}
                         <p className="describe">{item.values.desc}</p>
                     </div>
                 </div>

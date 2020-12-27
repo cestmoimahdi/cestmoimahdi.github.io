@@ -7,7 +7,7 @@ const Back = ()=>{
     return(
         <div className="back-component">
             <Link to="/">
-            <img src={Home}/>
+            <img src={Home} alt="homelogo"/>
             </Link>
         </div>
     )

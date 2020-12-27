@@ -1,8 +1,31 @@
 .spans-link-box {
+    bottom: 0;
+    left: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    display: block;
+    margin-top: 10px;
+}
+
+@media(min-width:530px) {
+    .spans-link-box {
+        bottom: unset;
+        left: unset;
+        top: 0;
+        right: 0;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        margin-top: -15px;
+    }
+}
+
+.spans-page-box {
     top: 0;
     right: 0;
+    margin-top: -15px;
     display: flex;
     position: absolute;
     flex-direction: column;
-    margin-top: -15px;
 }
