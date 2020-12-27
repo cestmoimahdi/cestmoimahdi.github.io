@@ -1,0 +1,14 @@
+.tech-list-item {
+    padding: 10px 0;
+    background-color: #dfdfdf;
+    margin: 5px 5px 0 5px;
+    border-radius: 10px;
+    flex: 25%;
+}
+
+.tech-list-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}

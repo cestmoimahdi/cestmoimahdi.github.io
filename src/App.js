@@ -40,20 +40,6 @@ const App = ()=>{
                         page :'skill/frontend'
                     }
                 },
-                'Oct 2020' :{
-                    title:"Back-End Developer",
-                    desc:'Nodejs Express Mongodb ...',
-                    links:{
-                        page :'skill/backend'
-                    }
-                },
-                'Jul 2020' :{
-                    title:"Database Developer",
-                    desc:'T-SQL Pl/SQl RDBMS NoSQL ...',
-                    links:{
-                        page :'skill/dba'
-                    }
-                },
                 'May 2019' :{
                     title:"Python Developer",
                     desc:'Python ...',
@@ -61,13 +47,27 @@ const App = ()=>{
                         page :'skill/python'
                     }
                 },
-                'Jun 2020' :{
-                    title:"AI Developer",
-                    desc:'Artificial intelligence Supervised and UnSupervised learning Algorithms like Regression, Classification, Clustering And ...',
+                // 'Jun 2020' :{
+                //     title:"AI Developer",
+                //     desc:'Artificial intelligence Supervised and UnSupervised learning Algorithms like Regression, Classification, Clustering And ...',
+                //     links:{
+                //         page :'skill/ai'
+                //     }
+                // },
+                'Jul 2020' :{
+                    title:"Database Developer",
+                    desc:'T-SQL Pl/SQl RDBMS NoSQL ...',
                     links:{
-                        page :'skill/ai'
+                        page :'skill/dba'
                     }
                 },
+                // 'Oct 2020' :{
+                //     title:"Back-End Developer",
+                //     desc:'Nodejs Express Mongodb ...',
+                //     links:{
+                //         page :'skill/backend'
+                //     }
+                // },
             },
             'languages and softwares':{
                 'javascript': 4,
@@ -79,13 +79,14 @@ const App = ()=>{
         },
         works:{
             'mailapars':{
-                place:'Maila Pars Co.',
-                desc:'my Career starts in Nov 2019 as FontEnd developer who works with krpano and customize plugins and rebuild old user interface and make new one for new employers who delegate their projects to us.recently working on create something new with threejs',
-                post:'Software & Front-End developer',
-                location:'Kolahdouz St. ,Pasdaran Ave. ,Tehran ,Iran',
-                since:'Nov 2019',
-                phone:'+98 2122776354',
-                tech:['html','css','xml','javascript','jquery','threejs','unreal engine'],
+                'Maila Pars Co.':{
+                    desc:'my Career starts in Nov 2019 as FontEnd developer who works with krpano and customize plugins and rebuild old user interface and make new one for new employers who delegate their projects to us.recently working on create something new with threejs',
+                    post:'Software & Front-End developer',
+                    location:'Kolahdouz St. Pasdaran Ave. Tehran Iran',
+                    since:'Nov 2019',
+                    phone:'+98 2122776354',
+                },
+                technologies:['html','css','xml','javascript','jquery','threejs','unreal engine'],
                 projects:{}
             }
         },
@@ -234,7 +235,7 @@ const App = ()=>{
             Personal : {
                 name : 'Mahdi Asemani',
                 birthday : 'January 8th, 1998 (23)',
-                languages : 'Persian, English, Turkish'
+                languages : 'English, Türkçe , Français'
             },
             Contact : {
                 mobile : { value : '+98 9016800390' , click : 'tel:+989016800390' },

@@ -25,7 +25,7 @@ const Projects = (props)=>{
     }
 
     if (project.length === 0){
-        project = 'No Project Yet!!'
+        project = <div className="not-project"> No Project Yet!! </div>
     }
 
     return(

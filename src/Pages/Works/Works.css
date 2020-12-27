@@ -1,9 +1,0 @@
-.works-box {
-    margin: 50px 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-}

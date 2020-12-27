@@ -1,0 +1,9 @@
+.not-project {
+    font-size: 0.9rem;
+}
+
+@media(min-width:830px) {
+    .not-project {
+        font-size: 1rem;
+    }
+}

@@ -3,6 +3,7 @@ import Title from '../../../Components/Title/Title';
 import Courses from '../../../Components/Courses/Courses'
 import Projects from '../../../Components/Projects/Projects'
 import Infos from '../../../Components/Infos/Infos'
+import List from '../../../Components/List/List'
 import './Skill.css'
 
 const Skill = (props) => {
@@ -14,13 +15,16 @@ const Skill = (props) => {
             value:props.items[i]
         })
     }
-    
+    // console.log(props.items)
+
     let skills = itemsArray.map((i)=>{
         let check = null;
         if(i.prop ==='courses'){
             check = <Courses items={i.value}/>
         }else if(i.prop === 'projects'){
             check = <Projects items={i.value}/>
+        }else if(i.prop === 'technologies'){
+            check = <List items={i.value}/>
         }else{
             check = <Infos items={i.value}/>
         }

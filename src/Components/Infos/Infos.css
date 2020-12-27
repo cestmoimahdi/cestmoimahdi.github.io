@@ -3,21 +3,43 @@
     flex-direction: column;
 }
 
+.infos-box {
+    font-size: 0.9rem;
+}
+
 .infos-item span {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
+}
+
+@media(min-width:830px) {
+    .infos-item span {
+        font-size: 1.1rem;
+    }
+    .infos-box {
+        font-size: 1rem;
+    }
 }
 
 .infos-lang {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .infos-desc {
     line-height: 1.8;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 .infos-time {
     margin-bottom: 5px;
+}
+
+.infos-not-info,
+.infos-post,
+.infos-location,
+.infos-phone {
+    margin-top: 10px;
 }

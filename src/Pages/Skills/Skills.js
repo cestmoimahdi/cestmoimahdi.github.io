@@ -9,8 +9,9 @@ const Skills = (props) => {
     const skill = state[props.info.match.params.page]
     let redirect = null;
 
-    if (!skill) { redirect = < Redirect to = "/404" / > }
-
+    if (!skill) { 
+        redirect = < Redirect to = "/404" / >
+    }
 
     return ( 
         <div className="skills" > 
