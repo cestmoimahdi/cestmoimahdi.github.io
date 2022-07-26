@@ -18,11 +18,6 @@ const App = ()=>{
                     links:{
                         page :'work/mailapars'
                     }
-                },
-                'Jan 2017' :{
-                    title:'Informatics Assistant',
-                    place:'Water and sewage Org.',
-                    desc:'Help with Computer issues in needed sections',
                 }
             },
             education:{
@@ -54,13 +49,13 @@ const App = ()=>{
                 //         page :'skill/ai'
                 //     }
                 // },
-                'Jul 2020' :{
-                    title:"Database Developer",
-                    desc:'T-SQL Pl/SQl RDBMS NoSQL ...',
-                    links:{
-                        page :'skill/dba'
-                    }
-                },
+//                 'Jul 2020' :{
+//                     title:"Database Developer",
+//                     desc:'T-SQL Pl/SQl RDBMS NoSQL ...',
+//                     links:{
+//                         page :'skill/dba'
+//                     }
+//                 },
                 // 'Oct 2020' :{
                 //     title:"Back-End Developer",
                 //     desc:'Nodejs Express Mongodb ...',
@@ -96,12 +91,12 @@ const App = ()=>{
                     desc: 'Html Css Bootstarp Jquery Javascript Reactjs ...',
                     since: 'Nov 2017',
                     tech: {
+                        'javascript': 4,
                         'html': 5,
+                        'es6': 4,
                         'css': 5,
                         'bootsrtap': 4,
                         'jquery': 4,
-                        'javascript': 4,
-                        'es6': 4,
                         'react': 4,
                         'npm': 3,
                         'webpack': 2,
